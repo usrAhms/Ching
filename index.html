@@ -16,8 +16,11 @@
 
         <main>
             <div class="content">
-                <p>Your intelligent assistant is ready to help!</p>
-                <button class="action-button">Start Chatting</button>
+                <div id="chat-box">
+                    <!-- The chat will appear here -->
+                </div>
+                <input type="text" id="user-input" placeholder="Ask Ching a question..." />
+                <button class="action-button" onclick="sendMessage()">Send</button>
             </div>
         </main>
         

@@ -1,0 +1,70 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Archivo Black', sans-serif;
+    background-color: #333333;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+/* Watermark */
+.watermark {
+    font-size: 10rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+/* Header */
+header h1 {
+    font-size: 3rem;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Main content */
+main {
+    margin-top: 50px;
+}
+
+.content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.action-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #2a3c56; /* Navy color */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #3b4a66; /* Lighter Navy */
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    font-size: 1rem;
+    color: #BBBBBB;
+}

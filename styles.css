@@ -47,10 +47,32 @@ main {
     margin-bottom: 30px;
 }
 
+#chat-box {
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #444444;
+    color: white;
+    padding: 15px;
+    overflow-y: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#user-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+}
+
 .action-button {
     padding: 15px 30px;
     font-size: 1.2rem;
-    background-color: #2a3c56; /* Navy color */
+    background-color: #2a3c56;
     color: white;
     border: none;
     border-radius: 10px;
@@ -59,7 +81,7 @@ main {
 }
 
 .action-button:hover {
-    background-color: #3b4a66; /* Lighter Navy */
+    background-color: #3b4a66;
 }
 
 /* Footer */
